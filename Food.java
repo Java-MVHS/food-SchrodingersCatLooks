@@ -24,4 +24,8 @@ public class Food
 	{
 		System.out.println(str); // creates a method with the capabilities to print the created string 
 	}
+	public void introOrConclusion()
+	{
+		System.out.println("\n\n\n"); // concluding and introducing method to have 3 empty lines
+	}
 }

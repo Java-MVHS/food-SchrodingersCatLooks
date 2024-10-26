@@ -14,11 +14,13 @@ public class FoodTester
 		
 		Food food1 = new Food ("baked", "bananas", "muffins"); // creates an instance of the class food
 		food1.printForSale(); // after having running the constructor with the parameters this calls it's method
+		food1.introOrConclusion();
 		Food food2 = new Food ("fried", "yam", "fritters"); // creates another instance of food 
 		food2.printForSale(); // runs the output with different parameters respectively as on the previous line
 		Pizza pizza = new Pizza ("pepperoni"); // Creates an instance of Pizza with a parameter to run the constructor
 		pizza.printForSale(); // runs the inherited print method in Pizza
 		DeepDishPizza Deep1 = new DeepDishPizza ("chocolate"); // creates an instance of DeepDishPizza with a parameter
 		Deep1.printForSale(); // runs the output statement of DeepDishPizza
+		food1.introOrConclusion();
 	}
 }
